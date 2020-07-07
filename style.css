@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif;
+	font-size: 14px;
+}
+
+/* header */
+.header {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+}
+
+.header ul {
+	/*border: 1px solid #000;*/
+	display: flex;
+	list-style: none;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.header li {
+	padding: 8px 12px;
+}
+
+.header li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav-svg {
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+}
+
+/* main */
+main {
+	width: 100vw;
+	height: 100vh;
+	/*background-image: url(img/bg1.jpg);*/
+	background-size: 100%;
+}
+
+.kanban {
+	/*border: 1px solid #000;*/
+	position: absolute;
+	left: 10vw;
+	top: 12vh;
+	width: 60vw;
+	background-color: rgba(0, 128, 255, 0.1);
+	height: 80vh;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.kanban article {
+	width: 260px;
+	height: 160px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 12vh;
+	right: 3.5vw;
+}
