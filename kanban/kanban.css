@@ -1,7 +1,77 @@
+/*
+ * @Author: cbsjz 
+ * @Date: 2020-07-10 20:41:14 
+ * @Last Modified by: cbsjz
+ * @Last Modified time: 2020-07-10 21:38:43
+ */
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif;
 	font-size: 14px;
+}
+
+
+/* main */
+main {
+	display: flex;
+	justify-content: center;
+}
+
+/* kanban */
+.list {
+	width: 95vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.filter {
+	align-self: flex-start;
+	margin: 10px 0;
+}
+
+.kanban {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.kanban article {
+	width: 19%;
+	height: 80vh;
+	background-color: #f5f7fa;
+	border-radius: 5px;
+	/*box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+	overflow: auto;
+}
+
+.kanban-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.kanban article h5 {
+	font-size: 18px;
+	margin: 15px 15px 3px;
+}
+
+.kanban-list li{
+	margin: 5px 0;
+	list-style: none;
+	width: 90%;
+	padding: 5px 8px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kanban-list li span {
+	display: block;
 }
