@@ -97,6 +97,7 @@ main {
 	padding: 2px 3px;
 	margin: 5px;
 	border-radius: 3px;
+	color: #00abe0;
 }
 
 /* id */
@@ -104,7 +105,23 @@ main {
 	float: right;
 }
 
-.kanban-list-id span {
+.kanban-list-id i {
+	background-color: #daf3fb;
+	padding: 2px 3px;
+	border-radius: 3px;
+	color: #00abe0;
+}
+
+.kanban-list-id label {
+	color: #8591ae;
+}
+
+/* name */
+.kanban-list-name {
+	float: right;
+}
+
+.kanban-list-name span {
 	background-color: #ffb84d;
 	padding: 2px 5px;
 	margin: 5px;
@@ -122,11 +139,11 @@ main {
 	background-color: #acdb7e !important;
 }
 
-.kanban-list-id span label {
+.kanban-list-name span label {
 	font-weight: 550;
 }
 
-.kanban-list-id span img {
+.kanban-list-name span img {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
