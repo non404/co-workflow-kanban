@@ -123,6 +123,7 @@ main {
 
 .kanban-list-name span {
 	background-color: #ffb84d;
+	border-radius: 2px;
 	padding: 2px 5px;
 	margin: 5px;
 }
